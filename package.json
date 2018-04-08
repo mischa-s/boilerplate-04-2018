@@ -16,14 +16,16 @@
     "npm": ">= 3.0.0"
   },
   "scripts": {
+    "start": "npm run server",
+    "server": "QT_QPA_PLATFORM='' node --max-old-space-size=480 ./API",
+    "build": "node -optimize_for_size --max_old_space_size=800 --gc_interval=100 ./node_modules/.bin/webpack --progress -p",
+    "heroku-postbuild": "npm run build",
     "test": "npm run eslint && npm run mocha",
-    "eslint": "eslint API/. test/. --config .eslintrc.json",
-    "start": "node API/",
+    "eslint": "eslint ./API/. test/. --config .eslintrc.json",
     "mocha": "mocha test/ --recursive --exit",
     "dev": "npm-run-all -p dev:*",
     "dev:server": "node ./API",
-    "dev:bundler": "webpack-dev-server --inline",
-    "build": "webpack --mode production"
+    "dev:bundler": "webpack-dev-server --inline"
   },
   "dependencies": {
     "@feathersjs/authentication": "^2.1.3",
