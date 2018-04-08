@@ -1,6 +1,5 @@
 /* global io, window */
 
-import style from "./main.css";
 const React = require('react');
 const ReactDOM = require('react-dom');
 const Application = require('./application').default
