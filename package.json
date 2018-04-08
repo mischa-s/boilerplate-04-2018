@@ -18,7 +18,7 @@
   "scripts": {
     "start": "npm run server",
     "server": "QT_QPA_PLATFORM='' node --max-old-space-size=480 ./API",
-    "build": "node -optimize_for_size --max_old_space_size=800 --gc_interval=100 webpack --progress -p",
+    "build": "node -optimize_for_size --max_old_space_size=800 --gc_interval=100 ./node_modules/.bin/webpack --progress -p",
     "heroku-postbuild": "npm run build",
     "test": "npm run eslint && npm run mocha",
     "eslint": "eslint ./API/. test/. --config .eslintrc.json",
