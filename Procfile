@@ -1,2 +1,2 @@
 
-web: node API/
+web: node src/
