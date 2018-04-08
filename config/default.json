@@ -5,5 +5,33 @@
   "paginate": {
     "default": 10,
     "max": 50
+  },
+  "postgres": {
+    "client": "pg",
+    "connection": "postgres://postgres:@localhost:5432/boilerplate_04_2018"
+  },
+  "authentication": {
+    "secret": "f78c18f06a6d34230349dca37a4c8b5c6c4e4200cf7a488d64607218b8aaa953554970f2500211140375fb83ac8388b9118854c83a7c6ea55077a581abbc67ac4bcf8c4c32be3f8f276d3163b36b38bd3c204e3a1e849234a751281bfb9137cb88c66cfdbe9042502b63c316da220589a776f72f22a9ad3c39792e6d070a42042d607bbf9149de27aff0799ffa55b6bb5937750110b0446d5ae554082c2591e600a80334c3b4e870d2df5cfe4b67cd3aeca9ee66bd2583abcc678bb17be6cffcc0e4e2f264a12b29de194c9a5092160b08b70a90ea9ec32d57c1670453afc9259b64e6e2f372336c800ae2596ba5996d8b8c7bb54b81a192304a43bd105d9ac2",
+    "strategies": [
+      "jwt",
+      "local"
+    ],
+    "path": "/authentication",
+    "service": "users",
+    "jwt": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://yourdomain.com",
+      "subject": "anonymous",
+      "issuer": "feathers",
+      "algorithm": "HS256",
+      "expiresIn": "1d"
+    },
+    "local": {
+      "entity": "user",
+      "usernameField": "email",
+      "passwordField": "password"
+    }
   }
 }
