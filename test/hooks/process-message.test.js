@@ -1,6 +1,6 @@
 const assert = require('assert');
 const feathers = require('@feathersjs/feathers');
-const processMessage = require('../../server/hooks/process-message');
+const processMessage = require('../../api/hooks/process-message');
 
 describe('\'process-message\' hook', () => {
   let app;
@@ -21,7 +21,7 @@ describe('\'process-message\' hook', () => {
 
   it('runs the hook', async () => {
     const result = await app.service('dummy').get('test');
-    
+
     assert.deepEqual(result, { id: 'test' });
   });
 });

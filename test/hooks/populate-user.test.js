@@ -1,6 +1,6 @@
 const assert = require('assert');
 const feathers = require('@feathersjs/feathers');
-const populateUser = require('../../server/hooks/populate-user');
+const populateUser = require('../../api/hooks/populate-user');
 
 describe('\'populate-user\' hook', () => {
   let app;
@@ -21,7 +21,7 @@ describe('\'populate-user\' hook', () => {
 
   it('runs the hook', async () => {
     const result = await app.service('dummy').get('test');
-    
+
     assert.deepEqual(result, { id: 'test' });
   });
 });

@@ -11,10 +11,10 @@ module.exports = {
       database: 'boilerplate_04_2018'
     },
     migrations: {
-      directory: './server/db/migrations'
+      directory: './api/db/migrations'
     },
     seeds: {
-      directory: './server/db/seeds'
+      directory: './api/db/seeds'
     }
   },
 
@@ -24,10 +24,10 @@ module.exports = {
       filename: ':memory:'
     },
     migrations: {
-      directory: './server/db/migrations'
+      directory: './api/db/migrations'
     },
     seeds: {
-      directory: './server/db/seeds'
+      directory: './api/db/seeds'
     },
     useNullAsDefault: true
   },
@@ -40,11 +40,11 @@ module.exports = {
       max: 10
     },
     migrations: {
-      directory: './server/db/migrations',
+      directory: './api/db/migrations',
       tableName: 'knex_migrations'
     },
     seeds: {
-      directory: './server/db/seeds'
+      directory: './api/db/seeds'
     }
   },
 
@@ -56,11 +56,11 @@ module.exports = {
       max: 10
     },
     migrations: {
-      directory: './server/db/migrations',
+      directory: './api/db/migrations',
       tableName: 'knex_migrations'
     },
     seeds: {
-      directory: './server/db/seeds'
+      directory: './api/db/seeds'
     }
   }
 

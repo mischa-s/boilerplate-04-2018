@@ -1,6 +1,6 @@
 const assert = require('assert');
 const feathers = require('@feathersjs/feathers');
-const gravatar = require('../../server/hooks/gravatar');
+const gravatar = require('../../api/hooks/gravatar');
 
 describe('\'gravatar\' hook', () => {
   let app;
@@ -21,7 +21,7 @@ describe('\'gravatar\' hook', () => {
 
   it('runs the hook', async () => {
     const result = await app.service('dummy').get('test');
-    
+
     assert.deepEqual(result, { id: 'test' });
   });
 });

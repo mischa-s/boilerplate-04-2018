@@ -11,20 +11,16 @@
   },
   "contributors": [],
   "bugs": {},
-  "directories": {
-    "lib": "server",
-    "test": "test/"
-  },
   "engines": {
     "node": "^8.0.0",
     "npm": ">= 3.0.0"
   },
   "scripts": {
     "test": "npm run eslint && npm run mocha",
-    "eslint": "eslint server/. test/. --config .eslintrc.json",
-    "start": "node server/",
+    "eslint": "eslint api/. test/. --config .eslintrc.json",
+    "start": "node api/",
     "mocha": "mocha test/ --recursive --exit",
-    "dev": "webpack-dev-server --mode development --open",
+    "dev": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
   },
   "dependencies": {
