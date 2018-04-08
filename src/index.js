@@ -5,18 +5,17 @@ const React = require('react');
 const ReactDOM = require('react-dom');
 const Application = require('./application').default
 const feathers = require('@feathersjs/feathers')
-const rest = require('@feathersjs/rest-client')
-const auth = require('@feathersjs/authentication-client')
+const socketio = require('@feathersjs/socketio-client');
+const authentication = require('@feathersjs/authentication-client');
+const io = require('socket.io-client');
 
-const localStorage = window ? window.localStorage : null
+const socket = io('http://localhost:3030/');
 
 const client = feathers()
-  .configure(rest('/api').fetch(window.fetch.bind(window)))
-  .configure(auth({
-    storage: localStorage,
-    accessTokenKey: 'minded'
+  .configure(socketio(socket))
+  .configure(authentication({
+    storage: window.localStorage
   }))
-
 window.client = client
 
 ReactDOM.render(

@@ -1,5 +1,6 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const webpack = require('webpack')
 module.exports = {
   module: {
     rules: [
@@ -25,6 +26,7 @@ module.exports = {
       }
     ]
   },
+
   plugins: [
     new HtmlWebPackPlugin({
       template: "./src/index.html",
@@ -33,6 +35,12 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: "[name].css",
       chunkFilename: "[id].css"
+    }),
+    new webpack.LoaderOptionsPlugin({
+      debug: true
     })
-  ]
+  ],
+
+  devtool: 'eval-source-map'
+
 };

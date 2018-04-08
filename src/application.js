@@ -11,7 +11,6 @@ class Application extends Component {
 
   componentDidMount() {
     const { client } = this.props
-    console.log('client', client)
     const messages = client.service('messages');
     const users = client.service('users');
 
@@ -47,9 +46,9 @@ class Application extends Component {
     }));
 
     // Add new messages to the message list
-    // messages.on('created', message => this.setState({
-    //   messages: this.state.messages.concat(message)
-    // }));
+    messages.on('created', message => this.setState({
+      messages: this.state.messages.concat(message)
+    }));
 
     // Add new users to the user list
     users.on('created', user => this.setState({
