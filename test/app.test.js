@@ -1,7 +1,7 @@
 const assert = require('assert');
 const rp = require('request-promise');
 const url = require('url');
-const app = require('../api/app');
+const app = require('../API/app');
 
 const port = app.get('port') || 3030;
 const getUrl = pathname => url.format({

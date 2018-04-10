@@ -25,7 +25,7 @@
     "mocha": "mocha test/ --recursive --exit",
     "dev": "npm-run-all -p dev:*",
     "dev:server": "node ./API",
-    "dev:bundler": "webpack-dev-server --inline"
+    "dev:bundler": "webpack-dev-server --inline --mode development"
   },
   "dependencies": {
     "@feathersjs/authentication": "^2.1.3",

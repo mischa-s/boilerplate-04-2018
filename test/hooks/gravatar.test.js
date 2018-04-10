@@ -1,6 +1,6 @@
 const assert = require('assert');
 const feathers = require('@feathersjs/feathers');
-const gravatar = require('../../api/hooks/gravatar');
+const gravatar = require('../../API/hooks/gravatar');
 
 describe('\'gravatar\' hook', () => {
   let app;

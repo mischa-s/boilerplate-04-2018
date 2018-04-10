@@ -1,6 +1,6 @@
 const assert = require('assert');
 const feathers = require('@feathersjs/feathers');
-const processMessage = require('../../api/hooks/process-message');
+const processMessage = require('../../API/hooks/process-message');
 
 describe('\'process-message\' hook', () => {
   let app;
