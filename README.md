@@ -3,8 +3,10 @@
 ## Next Steps
 
 - [ ] React-Hyperscript
+- [ ] React-Router
 - [ ] Material-Ui
 - [ ] Fela
+- [ ] Improve Webpack Config
 - [ ] Recompose
 
 
