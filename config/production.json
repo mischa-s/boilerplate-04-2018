@@ -1,3 +1,7 @@
 {
-  "port": "PORT"
+  "port": "PORT",
+  "postgres": {
+    "client": "pg",
+    "connection": "DATABASE_URL"
+  },
 }
