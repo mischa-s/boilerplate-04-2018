@@ -1,6 +1,12 @@
 # boilerplate-04-2018
 
-> a boilerplate, maybe
+## Next Steps
+
+- [ ] React-Hyperscript
+- [ ] Material-Ui
+- [ ] Fela
+- [ ] Recompose
+
 
 ## About
 
