@@ -8,7 +8,7 @@ module.exports = {
       host: '127.0.0.1',
       user: 'postgres',
       password: 'postgres',
-      database: 'boilerplate_04_2018'
+      database: 'boilerplate_04_18'
     },
     migrations: {
       directory: './API/db/migrations'
