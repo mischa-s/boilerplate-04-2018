@@ -6,8 +6,29 @@
 - [ ] React-Router
 - [ ] Material-Ui
 - [ ] Fela
+- [ ] Babel
 - [ ] Improve Webpack Config
 - [ ] Recompose
+
+## Extra Modules (Maybes)
+- Material UI
+- Redux
+- Redux-form
+- recompoose
+- redux-auth-wrapper
+- react-router-redux
+- webpack-hot-middleware
+- webpack-dev-middleware
+- react-hot-loader
+- redux-dev-tools
+- react-helmet
+
+## Examples to model on
+- https://github.com/jamesmskelsey/feathers-chat-react-webpack (https://medium.com/@jameskelsey/react-with-feathers-js-a-tutorial-for-newbies-by-a-newbie-d2725e7cad73)
+- https://github.com/sscaff1/feathers-webpack-react
+- https://github.com/eddyystop/feathers-starter-react-redux-login-roles
+- https://github.com/bertho-zero/react-redux-universal-hot-example
+- https://github.com/Albert-Gao/feathers-next-example
 
 
 ## About
@@ -16,8 +37,6 @@ This project uses [Feathers](http://feathersjs.com). An open source web framewor
 
 ## Getting Started
 
-Getting up and running is as easy as 1, 2, 3.
-
 1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
 2. Install your dependencies
 
@@ -25,15 +44,21 @@ Getting up and running is as easy as 1, 2, 3.
     cd path/to/boilerplate-04-2018; npm install
     ```
 
-3. Start your app
+3. Compile the bundle
 
     ```
-    npm start
+    npm run build
+    ```
+
+4. Start the app
+
+    ```
+    npm run dev
     ```
 
 ## Testing
 
-Simply run `npm test` and all your tests in the `test/` directory will be run.
+Simply run `npm test` and all tests in the `test/` directory will be run.
 
 ## Scaffolding
 

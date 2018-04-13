@@ -28,7 +28,7 @@ class Application extends Component {
           }
         }),
         users.find()
-      ]).then( ([ messagePage, userPage ]) => {
+      ]).then(([ messagePage, userPage ]) => {
         // We want the latest messages but in the reversed order
         const messages = messagePage.data.reverse();
         const users = userPage.data;

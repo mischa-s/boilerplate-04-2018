@@ -23,16 +23,13 @@ const app = express(feathers());
 
 // Load app configuration
 app.configure(configuration());
-// Enable CORS, security, compression, favicon and body parsing
+// Enable CORS, security, compression, and body parsing
 app.use(cors());
 app.use(helmet());
 app.use(compress());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(favicon(path.join(app.get('public'), 'favicon.ico')));
-// const api = knex(services(app))
-// app.api = api
-// app.use('/api', api)
+
 // Host the public folder
 app.use('/', express.static(app.get('public')));
 

@@ -3,7 +3,7 @@ logs
 *.log
 
 # Bundle
-/src/public/bundle.js
+public/bundle.js
 
 # Runtime data
 pids
@@ -23,28 +23,10 @@ coverage
 build/Release
 
 # Dependency directory
-# Commenting this out is preferred by some people, see
-# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
 node_modules
 
 # Users Environment Variables
 .lock-wscript
-
-# IDEs and editors (shamelessly copied from @angular/cli's .gitignore)
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 
 ### Linux ###
 *~
@@ -65,10 +47,6 @@ node_modules
 *.DS_Store
 .AppleDouble
 .LSOverride
-
-# Icon must end with two \r
-Icon
-
 
 # Thumbnails
 ._*

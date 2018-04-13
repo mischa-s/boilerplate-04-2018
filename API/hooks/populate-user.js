@@ -15,7 +15,6 @@ module.exports = function (options = {}) { // eslint-disable-line no-unused-vars
     await Promise.all(messages.map(async message => {
       // Also pass the original `params` to the service call
       // so that it has the same information available (e.g. who is requesting it)
-      console.log(message, 'messssageeee')
       const user = await app.service('users').get(message.userId, params);
 
       console.log(user, 'userrrrrr')
