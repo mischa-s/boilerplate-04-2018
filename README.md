@@ -2,26 +2,20 @@
 
 ## Next Steps
 
-- [ ] React-Hyperscript
-- [ ] React-Router
-- [ ] Material-Ui
-- [ ] Fela
-- [ ] Babel
+- [ ] [React-Router](https://reacttraining.com/react-router)
+- [ ] [React-Hyperscript](https://github.com/mlmorg/react-hyperscript)
+- [ ] [Fela](https://github.com/rofrischmann/fela)
+- [ ] [Material-Ui](https://github.com/mui-org/material-ui)
 - [ ] Improve Webpack Config
-- [ ] Recompose
 
 ## Extra Modules (Maybes)
-- Material UI
-- Redux
-- Redux-form
-- recompoose
-- redux-auth-wrapper
-- react-router-redux
-- webpack-hot-middleware
-- webpack-dev-middleware
-- react-hot-loader
-- redux-dev-tools
-- react-helmet
+- [redux](https://github.com/reactjs/redux)
+- [redux-dev-tools](https://github.com/gaearon/redux-devtools)
+- [recompoose](https://github.com/acdlite/recompose)
+- [redux-auth-wrapper](https://github.com/mjrussell/redux-auth-wrapper)
+- [react-router-redux](https://github.com/reactjs/react-router-redux)
+- [redux-form](https://github.com/erikras/redux-form)
+- [react-hot-loader](https://github.com/gaearon/react-hot-loader)
 
 ## Examples to model on
 - https://github.com/jamesmskelsey/feathers-chat-react-webpack (https://medium.com/@jameskelsey/react-with-feathers-js-a-tutorial-for-newbies-by-a-newbie-d2725e7cad73)
