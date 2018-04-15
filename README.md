@@ -11,6 +11,7 @@
 ## Extra Modules (Maybes)
 - [redux](https://github.com/reactjs/redux)
 - [redux-dev-tools](https://github.com/gaearon/redux-devtools)
+- [redux-bundler-](https://github.com/henrikjoreteg/redux-bundler/)
 - [recompoose](https://github.com/acdlite/recompose)
 - [redux-auth-wrapper](https://github.com/mjrussell/redux-auth-wrapper)
 - [react-router-redux](https://github.com/reactjs/react-router-redux)
@@ -18,7 +19,7 @@
 - [react-hot-loader](https://github.com/gaearon/react-hot-loader)
 
 ## Examples to model on
-- [React, Redux, Recompose, Feathers, Hyperscript, Fela, Material UI](https://github.com/buttcloud/buttcloud-provider)
+- [React, Redux, Redux Bundler, Recompose, Feathers, Hyperscript, Fela, Material UI](https://github.com/buttcloud/buttcloud-provider)
 - [React, Feathers, Webpack](https://github.com/jamesmskelsey/feathers-chat-react-webpack (https://medium.com/@jameskelsey/react-with-feathers-js-a-tutorial-for-newbies-by-a-newbie-d2725e7cad73))
 - [React, Feathers](https://github.com/sscaff1/feathers-webpack-react)
 - [React, Feathers, Redux](https://github.com/eddyystop/feathers-starter-react-redux-login-roles)
