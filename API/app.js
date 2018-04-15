@@ -34,10 +34,8 @@ app.use(compress());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-console.log('index html? ', indexHtml, 'outside')
 if (app.get('env') === 'development') {
   indexHtml = indexHtml.replace('bundle.js', 'http://localhost:8080/bundle.js')
-  console.log('index html? ', indexHtml, 'inside')
 }
 app.use((req, res, next) => {
   // const { pathname } = Url.parse(req.url)
