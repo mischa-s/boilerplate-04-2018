@@ -42,7 +42,7 @@ class Chat extends Component {
     return <main className="flex flex-column">
       <header className="title-bar flex flex-row flex-center">
         <div className="title-wrapper block center-element">
-          <span className="title">Chat</span>
+          <span className="title">A basic instant chat for the YIP Alumni Map</span>
         </div>
       </header>
 
