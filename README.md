@@ -18,11 +18,12 @@
 - [react-hot-loader](https://github.com/gaearon/react-hot-loader)
 
 ## Examples to model on
-- https://github.com/jamesmskelsey/feathers-chat-react-webpack (https://medium.com/@jameskelsey/react-with-feathers-js-a-tutorial-for-newbies-by-a-newbie-d2725e7cad73)
-- https://github.com/sscaff1/feathers-webpack-react
-- https://github.com/eddyystop/feathers-starter-react-redux-login-roles
-- https://github.com/bertho-zero/react-redux-universal-hot-example
-- https://github.com/Albert-Gao/feathers-next-example
+- [React, Redux, Recompose, Feathers, Fela, Material UI](https://github.com/buttcloud/buttcloud-provider)
+- [React, Feathers, Webpack](https://github.com/jamesmskelsey/feathers-chat-react-webpack (https://medium.com/@jameskelsey/react-with-feathers-js-a-tutorial-for-newbies-by-a-newbie-d2725e7cad73))
+- [React, Feathers](https://github.com/sscaff1/feathers-webpack-react)
+- [React, Feathers, Redux](https://github.com/eddyystop/feathers-starter-react-redux-login-roles)
+- [React, Redux, Feathers, Webpack](https://github.com/bertho-zero/react-redux-universal-hot-example)
+- [Feathers, Next](https://github.com/Albert-Gao/feathers-next-example)
 
 
 ## About
