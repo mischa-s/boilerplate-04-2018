@@ -11,7 +11,7 @@
 ## Extra Modules (Maybes)
 - [redux](https://github.com/reactjs/redux)
 - [redux-dev-tools](https://github.com/gaearon/redux-devtools)
-- [redux-bundler-](https://github.com/henrikjoreteg/redux-bundler/)
+- [redux-bundler](https://github.com/henrikjoreteg/redux-bundler/)
 - [recompoose](https://github.com/acdlite/recompose)
 - [redux-auth-wrapper](https://github.com/mjrussell/redux-auth-wrapper)
 - [react-router-redux](https://github.com/reactjs/react-router-redux)
