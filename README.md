@@ -8,11 +8,11 @@
 - [ ] [Fela](https://github.com/rofrischmann/fela)
 - [ ] [Material-Ui](https://github.com/mui-org/material-ui)
 - [ ] [Final Form](https://github.com/final-form/final-form)
-- [ ] "redux-form-material-ui": "^5.0.0-beta.2", 
+- [ ] [Redux Form Material UI](https://github.com/erikras/redux-form-material-ui)
 - [ ] Improve Webpack Config
-- [ ] [Redis] (https://github.com/luin/ioredis)
-- [ ] [Node-resque] (https://github.com/taskrabbit/node-resque)
-- [ ] [Nodemailer] (https://github.com/nodemailer/nodemailer)
+- [ ] [Redis](https://github.com/luin/ioredis)
+- [ ] [Node-resque](https://github.com/taskrabbit/node-resque)
+- [ ] [Nodemailer](https://github.com/nodemailer/nodemailer)
     
     
 ## Examples to model on
