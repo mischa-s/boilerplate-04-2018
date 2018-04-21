@@ -2,21 +2,12 @@
 
 ## Next Steps
 
-- [ ] [React-Router](https://reacttraining.com/react-router)
+- [ ] [Redux-Bundler](https://github.com/henrikjoreteg/redux-bundler/) (For routing, reducers, and selectors)
 - [ ] [React-Hyperscript](https://github.com/mlmorg/react-hyperscript)
 - [ ] [Fela](https://github.com/rofrischmann/fela)
 - [ ] [Material-Ui](https://github.com/mui-org/material-ui)
+- [ ] [Final Form](https://github.com/final-form/final-form)
 - [ ] Improve Webpack Config
-
-## Extra Modules (Maybes)
-- [redux](https://github.com/reactjs/redux)
-- [redux-dev-tools](https://github.com/gaearon/redux-devtools)
-- [redux-bundler](https://github.com/henrikjoreteg/redux-bundler/)
-- [recompoose](https://github.com/acdlite/recompose)
-- [redux-auth-wrapper](https://github.com/mjrussell/redux-auth-wrapper)
-- [react-router-redux](https://github.com/reactjs/react-router-redux)
-- [redux-form](https://github.com/erikras/redux-form)
-- [react-hot-loader](https://github.com/gaearon/react-hot-loader)
 
 ## Examples to model on
 - [React, Redux, Redux Bundler, Recompose, Feathers, Hyperscript, Fela, Material UI](https://github.com/buttcloud/buttcloud-provider)
