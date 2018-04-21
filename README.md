@@ -3,7 +3,6 @@
 ## Next Steps
 
 - [ ] [Redux-Bundler](https://github.com/henrikjoreteg/redux-bundler/) (For routing, reducers, and selectors)
--    "internal-nav-helper": "^1.0.2",
 - [ ] [React-Hyperscript](https://github.com/mlmorg/react-hyperscript)
 - [ ] [Fela](https://github.com/rofrischmann/fela)
 - [ ] [Material-Ui](https://github.com/mui-org/material-ui)
