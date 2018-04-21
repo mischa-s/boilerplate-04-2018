@@ -3,12 +3,18 @@
 ## Next Steps
 
 - [ ] [Redux-Bundler](https://github.com/henrikjoreteg/redux-bundler/) (For routing, reducers, and selectors)
+-    "internal-nav-helper": "^1.0.2",
 - [ ] [React-Hyperscript](https://github.com/mlmorg/react-hyperscript)
 - [ ] [Fela](https://github.com/rofrischmann/fela)
 - [ ] [Material-Ui](https://github.com/mui-org/material-ui)
 - [ ] [Final Form](https://github.com/final-form/final-form)
+- [ ] "redux-form-material-ui": "^5.0.0-beta.2", 
 - [ ] Improve Webpack Config
-
+- [ ] [Redis] (https://github.com/luin/ioredis)
+- [ ] [Node-resque] (https://github.com/taskrabbit/node-resque)
+- [ ] [Nodemailer] (https://github.com/nodemailer/nodemailer)
+    
+    
 ## Examples to model on
 - [React, Redux, Redux Bundler, Recompose, Feathers, Hyperscript, Fela, Material UI](https://github.com/buttcloud/buttcloud-provider)
 - [React, Feathers, Webpack](https://github.com/jamesmskelsey/feathers-chat-react-webpack (https://medium.com/@jameskelsey/react-with-feathers-js-a-tutorial-for-newbies-by-a-newbie-d2725e7cad73))
