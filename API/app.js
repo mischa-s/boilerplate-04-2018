@@ -38,10 +38,7 @@ if (app.get('env') === 'development') {
   indexHtml = indexHtml.replace('bundle.js', 'http://localhost:8080/bundle.js')
 }
 app.use((req, res, next) => {
-  // const { pathname } = Url.parse(req.url)
-  // const matches = matchRoutes(routes, pathname)
-  // if (matches.length === 0) return next()
-  // res.setHeader('content-type', 'text/html')
+  res.setHeader('content-type', 'text/html')
   res.end(indexHtml)
 })
 
