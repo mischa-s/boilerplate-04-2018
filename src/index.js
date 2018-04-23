@@ -1,10 +1,13 @@
+localStorage.setItem('debug', true)
 
-const React = require('react');
-const ReactDOM = require('react-dom');
-const Application = require('./application')
-const client = require('./client')
+const config = require('../config')
+window.config = config
 
-ReactDOM.render(
-  <Application client={client} />,
-  document.getElementById('app')
-);
+const createStore = require('./store')
+const store = createStore()
+
+const view = require('./view')
+view({
+  config,
+  store
+})

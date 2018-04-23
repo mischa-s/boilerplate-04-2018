@@ -1,19 +1,28 @@
 # boilerplate-04-2018
 
 ## Next Steps
-
-- [ ] [Redux-Bundler](https://github.com/henrikjoreteg/redux-bundler/) (For routing, reducers, and selectors)
-- [ ] [React-Hyperscript](https://github.com/mlmorg/react-hyperscript)
-- [ ] [Fela](https://github.com/rofrischmann/fela)
-- [ ] [Material-Ui](https://github.com/mui-org/material-ui)
-- [ ] [Final Form](https://github.com/final-form/final-form)
-- [ ] [Redux Form Material UI](https://github.com/erikras/redux-form-material-ui)
+- [x] [Feathers](http://feathersjs.com) - Database / API
+- [x] [Webpack](https://webpack.js.org) - Bundler
+- [x] [React-Hyperscript](https://github.com/mlmorg/react-hyperscript) - Syntax
+- [x] [Fela](https://github.com/rofrischmann/fela) - Style syntax
+- [x] [Redux-Bundler](https://github.com/henrikjoreteg/redux-bundler/) - Routing, reducers, and selectors
+- [x] [Material-Ui](https://github.com/mui-org/material-ui) - Styles (theme, prebuilt components)
+- [x] [Final Form](https://github.com/final-form/final-form) - Forms
+- [x] [Redux Form Material UI](https://github.com/erikras/redux-form-material-ui) - Form styles
+- [ ] [Nodemailer](https://github.com/nodemailer/nodemailer) - Mailer ( for login etc.)
+- [ ] Build home page with Kumu map
+- [ ] Include example of D3
+- [ ] Design data model
+- [ ] Build data update component
+- [ ]
 - [ ] Improve Webpack Config
-- [ ] [Redis](https://github.com/luin/ioredis)
-- [ ] [Node-resque](https://github.com/taskrabbit/node-resque)
-- [ ] [Nodemailer](https://github.com/nodemailer/nodemailer)
-    
-    
+
+
+## Other Modules
+- [ ] [Redis](https://github.com/luin/ioredis) - Background workers
+- [ ] [Node-resque](https://github.com/taskrabbit/node-resque) - Background workers
+
+
 ## Examples to model on
 - [React, Redux, Redux Bundler, Recompose, Feathers, Hyperscript, Fela, Material UI](https://github.com/buttcloud/buttcloud-provider)
 - [React, Feathers, Webpack](https://github.com/jamesmskelsey/feathers-chat-react-webpack (https://medium.com/@jameskelsey/react-with-feathers-js-a-tutorial-for-newbies-by-a-newbie-d2725e7cad73))

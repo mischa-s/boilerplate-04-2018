@@ -3,16 +3,18 @@ const socketio = require('@feathersjs/socketio-client');
 const authentication = require('@feathersjs/authentication-client');
 const io = require('socket.io-client');
 
-const socket = io();
+function createClient (config) {
+  const socket = io();
 
-const localStorage = window ? window.localStorage : null
+  const localStorage = window ? window.localStorage : null
 
-const client = feathers()
-  .configure(socketio(socket))
-  .configure(authentication({
-    storage: localStorage
-  }))
+  const client = feathers()
+    .configure(socketio(socket))
+    .configure(authentication({
+      storage: localStorage
+    }))
 
-window.client = client
+  return client
+}
 
-module.exports = client
+module.exports = createClient
